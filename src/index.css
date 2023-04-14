@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Monserrat;
+  src: 
+    url('/fonts/monserrat/static/Montserrat-Regular.ttf')
+    /* url('/fonts/monserrat/static/Montserrat-Medium.ttf') */
+    /* url('/fonts/monserrat/static/Montserrat-Bold.ttf') */
+    /* url('/fonts/monserrat/static/Montserrat-ExtraBold.ttf'); */
+
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('/fonts/poppins/Poppins-Regular.ttf');
+  font-size: 2rem;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url('fonts/avenir/avenir-Regular.otf');
+  /* https://www.dafontfree.io/avenir-font/ */
+}
+
+@font-face {
+  font-family: Bebas Neue;
+  src: url('/fonts/bebas-neue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+  font-family: Dm Sans;
+  src: url('/fonts/dm-sans/DMSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: Abril Fatface;
+  src: url('/fonts/abril-fatface/AbrilFatface-Regular.ttf');
+}
+
+@font-face {
+  font-family: Grand Hotel;
+  src: url('/fonts/grand-hotel/GrandHotel-Regular.ttf');
+}
+
+@font-face {
+  font-family: Nekro One;
+  src: url('/fonts/nekro-one/NerkoOne-Regular.ttf');
+}
+
+@f
