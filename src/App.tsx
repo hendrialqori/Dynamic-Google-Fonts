@@ -49,7 +49,6 @@ export default function App() {
             Choose Font
           </label>
           <select
-            value={text}
             onChange={(e) => setFont(e.target.value)}
             className="border rounded-md p-2"
             id="font"
@@ -67,6 +66,7 @@ export default function App() {
         <div className="flex flex-col">
           <label htmlFor="text">Texing</label>
           <textarea
+            autoFocus
             value={text}
             onChange={(e) => setText(e.target.value)}
             className="border rounded-md p-2"
